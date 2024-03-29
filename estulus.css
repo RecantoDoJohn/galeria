@@ -11,7 +11,7 @@ header {
     text-align: center;
     text-shadow: 3px 3px black;
     font-size: 30px;
-    animation: inicio 4s ;
+    animation: inicio 2s ;
 } 
 
 
@@ -29,7 +29,7 @@ header {
     margin: auto 30px 50px;
     box-shadow: 5px 5px 0px black;
     transition-duration: 0.5s;
-    animation: inicio 4s ;
+    animation: inicio 2s ;
     
 }
 

@@ -24,13 +24,14 @@ header {
     background: whitesmoke url(https://t4.ftcdn.net/jpg/01/64/99/19/240_F_164991966_MfVeEvVkMOe3ICaGKiYJp8BVFUX1Ogrb.jpg);
     border-radius: 10px;
     padding: 15px;
+    padding-bottom: 30px;
     width: 250px;
     height: 350px;
     margin: auto 30px 50px;
     box-shadow: 5px 5px 0px black;
     transition-duration: 0.5s;
     animation: inicio 2s ;
-    
+    text-align:justify;
 }
 
 
@@ -48,16 +49,21 @@ footer {
     object-fit: cover;
     display: block;
     width: 250px;
-    height: 200px;
     margin: auto;
     border-radius: 10px;
 }
 
 a {
+    text-decoration: none;
     color: white;
     font-style: italic;
     font-weight: bold;
     bottom: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: tomato;
 }
 
 .secao:hover  {

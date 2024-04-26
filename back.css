@@ -1,0 +1,80 @@
+#bgd {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.bigback {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: -1;
+    width: 100%;
+    height: 200dvh;
+    display: flex;
+}
+.bigback img {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    image-rendering: pixelated;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+.backy img {
+    animation: infinite sideeye linear;
+}
+
+.backy2 img {
+    animation: infinite sideeye2 linear;
+}
+
+
+.backy .mount {
+    animation-duration: 60s;
+}
+.backy2 .mount {
+    animation-duration: 60s;
+}
+
+.backy .mount1 {
+    z-index: 1;
+    animation-duration: 40s;
+}
+.backy2 .mount1 {
+    z-index: 1;
+    animation-duration: 40s;
+}
+
+.backy .cac {
+    z-index: 2;
+    animation-duration: 20s;
+}
+.backy2 .cac {
+    z-index: 2;
+    animation-duration: 20s;
+}
+
+@keyframes sideeye2 {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0%;
+    }
+
+}
+
+@keyframes sideeye {
+    from {
+        left: 0%;
+    }
+    to {
+        left: -100%;
+    }
+
+}
